@@ -4,7 +4,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Login, { Profile, Setting } from './UserComponent'
-
+import ReactProps from './ReactProps'
+import PropsExample from './PropsExample'
 function App() {
   return (
     <>
@@ -12,6 +13,10 @@ function App() {
       <Login />
       <Profile />
       <Setting />
+      <PropsExample />
+      <ReactProps name="Bibek Kunwar" age={21} hobbies={["Cricket", "coding", "reading"]} />
+
+
     </>
   )
 }
